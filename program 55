@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int n=123456, t=n, ev=0, cnt=0;
+    while(t){ if((t%10)%2==0) ev++; cnt++; t/=10; }
+    printf("Even digits percentage = %f%%\n", (ev*100.0)/cnt);
+    return 0;
+}
