@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int n=1234, prod=1;
+    while(n){ prod*=n%10; n/=10; }
+    printf("Product of digits = %d\n", prod);
+    return 0;
+}
