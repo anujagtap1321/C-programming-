@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double m1=80,m2=70,m3=90;
+    double wavg = (m1*0.2 + m2*0.3 + m3*0.5);
+    printf("Weighted average = %f\n", wavg);
+    return 0;
+}
