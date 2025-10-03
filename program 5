@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    float a=8.5, b=7.5;
+    printf("Average = %f\n", (a+b)/2.0);
+    return 0;
+}
