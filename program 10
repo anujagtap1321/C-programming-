@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double miles=6.2;
+    printf("%f miles = %f km\n", miles, miles/0.621371);
+    return 0;
+}
