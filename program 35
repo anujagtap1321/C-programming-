@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    double a[]={3.5,4.5,5.0,6.0}, sum=0;
+    int n=4;
+    for(int i=0;i<n;i++) sum+=a[i];
+    printf("Average = %f\n", sum/n);
+    return 0;
+}
