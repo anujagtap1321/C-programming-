@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    float c=25;
+    float f = (c*9.0/5.0)+32.0;
+    printf("%f C = %f F\n", c, f);
+    return 0;
+}
