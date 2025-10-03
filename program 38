@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    double a=7.5,b=2.5;
+    double q=a/b;
+    double rem = a - (int)(a/b)*b;
+    printf("Quotient=%f Remainder(approx)=%f\n", q, rem);
+    return 0;
+}
