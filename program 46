@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    float a=100,b=2,c=5;
+    printf("Result = %f\n", a/b/c);
+    return 0;
+}
