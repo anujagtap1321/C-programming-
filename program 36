@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    double marks[]={80,75,90,85}, total=400, sum=0;
+    int n=4;
+    for(int i=0;i<n;i++) sum+=marks[i];
+    printf("Percentage = %f%%\n", (sum/total)*100.0);
+    return 0;
+}
