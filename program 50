@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double frac=0.875;
+    printf("%f = %f%%\n", frac, frac*100.0);
+    return 0;
+}
