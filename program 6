@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    float marks=420, total=500;
+    printf("Percentage = %f%%\n", (marks/total)*100.0);
+    return 0;
+}
