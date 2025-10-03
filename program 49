@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double pct=75.5;
+    printf("%f%% = %f (fraction)\n", pct, pct/100.0);
+    return 0;
+}
