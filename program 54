@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int n=2468, sum=0, cnt=0; int t=n;
+    while(t){ sum+=t%10; cnt++; t/=10; }
+    printf("Average of digits = %f\n", (double)sum/cnt);
+    return 0;
+}
