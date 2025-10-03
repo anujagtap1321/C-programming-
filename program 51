@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    int days=800;
+    int years = days/365;
+    int months = (days%365)/30;
+    printf("%d days = %d years %d months\n", days, years, months);
+    return 0;
+}
