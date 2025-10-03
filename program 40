@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double old=120.0, new=150.0;
+    double change = ((new-old)/old)*100.0;
+    printf("Change = %f%%\n", change);
+    return 0;
+}
