@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double k=300.0;
+    printf("%f K = %f C\n", k, k-273.15);
+    return 0;
+}
