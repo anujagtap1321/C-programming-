@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double ft2=538.196;
+    printf("%f ft^2 = %f m^2\n", ft2, ft2/10.7639);
+    return 0;
+}
