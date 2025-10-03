@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    int a=20,b=3;
+    printf("Add=%d Sub=%d Mul=%d Div=%d Rem=%d\n", a+b, a-b, a*b, a/b, a%b);
+    return 0;
+}
