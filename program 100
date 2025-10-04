@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double x, sum=0; int cnt=0;
+    while(scanf("%lf",&x)==1 && x>=0){ sum+=x; cnt++; }
+    printf("Average = %f\n", cnt?sum/cnt:0.0);
+    return 0;
+}
