@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+    double a,b,c,d,e;
+    printf("Enter 5 numbers: ");
+    if(scanf("%lf %lf %lf %lf %lf",&a,&b,&c,&d,&e)!=5) return 0;
+    printf("Average = %f\n", (a+b+c+d+e)/5.0);
+    return 0;
+}
