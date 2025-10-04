@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double inr=1000, rate=0.012; // 1 INR = 0.012 USD approx
+    printf("%f INR = %f USD\n", inr, inr*rate);
+    return 0;
+}
