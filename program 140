@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+    double salary=50000;
+    double tax_pct=10, pf_pct=5;
+    double net = salary * (1 - (tax_pct+pf_pct)/100.0);
+    printf("Net salary = %f\n", net);
+    return 0;
+}
