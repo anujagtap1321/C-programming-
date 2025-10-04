@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double part=45, whole=60;
+    printf("Percent = %f%%\n", part/whole*100.0);
+    return 0;
+}
