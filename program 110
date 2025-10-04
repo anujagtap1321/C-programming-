@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    int s=3671;
+    printf("%d s = %d:%d:%d (h:m:s)\n", s, s/3600, (s%3600)/60, s%60);
+    return 0;
+}
