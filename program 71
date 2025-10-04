@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double weight_kg=60.0, height_m=1.65;
+    double bmi = weight_kg / (height_m*height_m);
+    printf("BMI = %f\n", bmi);
+    return 0;
+}
