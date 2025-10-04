@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+    double length=5.0, width=3.0; // meters
+    double area_m2 = length*width;
+    double area_ft2 = area_m2*10.7639;
+    printf("Area = %f m^2 = %f ft^2\n", area_m2, area_ft2);
+    return 0;
+}
