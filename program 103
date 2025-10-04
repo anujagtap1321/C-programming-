@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double a=50,b=70;
+    printf("Absolute change percent = %f%%\n", fabs((b-a)/a*100.0));
+    return 0;
+}
