@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double kmh=72;
+    printf("%f km/h = %f m/s\n", kmh, kmh*(1000.0/3600.0));
+    return 0;
+}
