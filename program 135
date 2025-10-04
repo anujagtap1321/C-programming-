@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    double pct=78.0;
+    double gpa;
+    if(pct>=90) gpa=10;
+    else if(pct>=75) gpa=8;
+    else if(pct>=60) gpa=6;
+    else gpa=4;
+    printf("Percentage %f => GPA %f\n", pct, gpa);
+    return 0;
+}
