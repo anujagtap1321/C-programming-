@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+    double r=540.0;
+    double c = (r - 491.67) * 5.0/9.0;
+    printf("%f R = %f C\n", r, c);
+    return 0;
+}
