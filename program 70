@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    int m[2][2]={{1,2},{3,4}};
+    int sum = m[0][0]+m[1][1];
+    int prod = m[0][0]*m[1][1];
+    printf("Diag sum=%d prod=%d\n", sum, prod);
+    return 0;
+}
