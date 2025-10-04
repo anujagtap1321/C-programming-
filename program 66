@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double g=5500;
+    printf("%f g = %f kg\n", g, g/1000.0);
+    return 0;
+}
