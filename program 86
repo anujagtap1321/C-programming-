@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int n=5; int sum=0;
+    for(int i=1;i<=n;i++) sum += 2*i;
+    printf("Avg of first %d evens = %f\n", n, (double)sum/n);
+    return 0;
+}
