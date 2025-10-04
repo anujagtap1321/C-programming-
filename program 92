@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int n=7; int a=0,b=1; int sum=a+b;
+    for(int i=3;i<=n;i++){ int c=a+b; sum+=c; a=b; b=c; }
+    printf("Average = %f\n", sum/(double)n);
+    return 0;
+}
