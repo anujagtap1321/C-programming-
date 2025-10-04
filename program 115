@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double d1=100,t1=2, d2=50, t2=1;
+    double avg_speed = (d1+d2)/(t1+t2);
+    printf("Average speed = %f\n", avg_speed);
+    return 0;
+}
