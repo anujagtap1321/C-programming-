@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double in=12;
+    printf("%f in = %f cm\n", in, in*2.54);
+    return 0;
+}
