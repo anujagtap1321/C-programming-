@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double deg=180;
+    printf("%f deg = %f rad\n", deg, deg * 3.141592653589793 / 180.0);
+    return 0;
+}
