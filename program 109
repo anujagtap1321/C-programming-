@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int n=678945, t=n, cnt=0, tot=0;
+    while(t){ if(t%10>5) cnt++; tot++; t/=10; }
+    printf("Percentage >5 = %f%%\n", cnt*100.0/tot);
+    return 0;
+}
