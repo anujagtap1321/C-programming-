@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+    int n=10;
+    int sum=0;
+    for(int i=2;i<=2*n;i+=2) sum+=i;
+    printf("Sum of first %d even numbers = %d\n", n, sum);
+    return 0;
+}
