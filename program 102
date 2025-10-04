@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double kg=68;
+    printf("%f kg = %f lb\n", kg, kg/0.45359237);
+    return 0;
+}
