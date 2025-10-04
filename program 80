@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double price=2500, disc_pct=15;
+    double after = price * (1 - disc_pct/100.0);
+    printf("Price after %f%% discount = %f\n", disc_pct, after);
+    return 0;
+}
