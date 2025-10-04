@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double a[]={5,2,9,4,7}, min=a[0], max=a[0];
+    for(int i=1;i<5;i++){ if(a[i]<min)min=a[i]; if(a[i]>max)max=a[i]; }
+    printf("Avg of min and max = %f\n", (min+max)/2.0);
+    return 0;
+}
