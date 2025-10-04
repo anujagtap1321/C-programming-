@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double lb=150;
+    printf("%f lb = %f kg\n", lb, lb*0.45359237);
+    return 0;
+}
