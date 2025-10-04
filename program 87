@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    double pct=82.5;
+    if(pct>=90) printf("A\n");
+    else if(pct>=75) printf("B\n");
+    else if(pct>=60) printf("C\n");
+    else printf("F\n");
+    return 0;
+}
