@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+    int rupees, paise;
+    printf("Enter rupees and paise: ");
+    if(scanf("%d %d",&rupees,&paise)!=2) return 0;
+    double total = rupees + paise/100.0;
+    printf("Total = %f INR\n", total);
+    return 0;
+}
