@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double k=300;
+    printf("%f K = %f R\n", k, k*9.0/5.0);
+    return 0;
+}
