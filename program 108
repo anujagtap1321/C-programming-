@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double a=4,b=9;
+    double gm = sqrt(a*b);
+    printf("Geometric mean = %f\n", gm);
+    return 0;
+}
