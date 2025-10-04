@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double a[]={10,20,30}, sum=60;
+    for(int i=0;i<3;i++) printf("Element %d: %f%%\n", i, a[i]/sum*100.0);
+    return 0;
+}
