@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double p=1000, monthly_rate=1.5; int months=12;
+    double amt = p * pow(1+monthly_rate/100.0, months);
+    printf("Amount = %f\n", amt);
+    return 0;
+}
