@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<string.h>
+int hexval(char c){ if(c>='0'&&c<='9') return c-'0'; if(c>='A'&&c<='F') return 10+c-'A'; if(c>='a'&&c<='f') return 10+c-'a'; return 0; }
+int main(){
+    char s[]="1A3";
+    int len=strlen(s), val=0;
+    for(int i=0;i<len;i++){ val = val*16 + hexval(s[i]); }
+    printf("Hex %s = %d\n", s, val);
+    return 0;
+}
