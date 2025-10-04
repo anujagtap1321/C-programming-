@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double hours=36;
+    printf("%f hours = %f days\n", hours, hours/24.0);
+    return 0;
+}
