@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double c=25;
+    printf("%f C = %f R\n", c, (c+273.15)*9.0/5.0);
+    return 0;
+}
