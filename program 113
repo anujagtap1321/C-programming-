@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double gal=5;
+    printf("%f gallons = %f liters\n", gal, gal*3.78541);
+    return 0;
+}
