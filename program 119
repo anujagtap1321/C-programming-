@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int r=120,g=200,b=150;
+    int gray = (r+g+b)/3;
+    printf("Grayscale = %d\n", gray);
+    return 0;
+}
