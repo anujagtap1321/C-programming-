@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double a=10, b=0;
+    if(b==0) printf("Cannot divide by zero\n");
+    else printf("Result = %f\n", a/b);
+    return 0;
+}
