@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    int rupees=123;
+    printf("%d rupees = %d paise\n", rupees, rupees*100);
+    return 0;
+}
