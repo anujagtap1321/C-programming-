@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double p=10000, r=5, t=3;
+    double a = p * pow(1 + r/100.0, t);
+    printf("Amount = %f\n", a);
+    return 0;
+}
