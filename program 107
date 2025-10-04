@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double a=3,b=4;
+    double hm = 2.0/(1.0/a + 1.0/b);
+    printf("Harmonic mean = %f\n", hm);
+    return 0;
+}
