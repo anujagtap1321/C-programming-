@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    double current=350, total=500, required_by=60; // required percent overall
+    double required_marks = total*required_by/100.0;
+    double need = required_marks - current;
+    printf("Marks needed = %f\n", need>0?need:0.0);
+    return 0;
+}
