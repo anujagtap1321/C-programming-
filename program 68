@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    double ml=2750;
+    printf("%f mL = %f L\n", ml, ml/1000.0);
+    return 0;
+}
