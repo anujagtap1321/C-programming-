@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    double a[]={-3,4,-2,10}, posSum=0, negSum=0; int pc=0,nc=0;
+    for(int i=0;i<4;i++){ if(a[i]>0){posSum+=a[i];pc++;} else {negSum+=a[i];nc++;} }
+    printf("Avg pos=%f Avg neg=%f\n", pc?posSum/pc:0.0, nc?negSum/nc:0.0);
+    return 0;
+}
