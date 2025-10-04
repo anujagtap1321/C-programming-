@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+    double a=5.5,b=2.2,c=9.1;
+    double avg = (a+b+c)/3.0;
+    double min = a<b?(a<c?a:c):(b<c?b:c);
+    double max = a>b?(a>c?a:c):(b>c?b:c);
+    printf("Avg=%f Min=%f Max=%f\n", avg, min, max);
+    return 0;
+}
