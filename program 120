@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    double principal=50000, rate=7, years=2;
+    double si = principal * rate * years / 100.0;
+    double total = principal + si;
+    printf("Total = %f Monthly = %f\n", total, total/(years*12.0));
+    return 0;
+}
