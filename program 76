@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int n=5; double sum=0;
+    for(int i=1;i<=n;i++) sum += i*i;
+    printf("Avg of squares = %f\n", sum/n);
+    return 0;
+}
